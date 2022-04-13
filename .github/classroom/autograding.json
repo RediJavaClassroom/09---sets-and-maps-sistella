@@ -1,9 +1,29 @@
 {
   "tests": [
     {
-      "name": "Build",
-      "setup": "mvn clean compile",
-      "run": "mvn verify",
+      "name": "Step 1",
+      "setup": "",
+      "run": "mvn clean -Dtest=Step_1_Tests test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Step 2",
+      "setup": "",
+      "run": "mvn clean -Dtest=Step_2_Tests test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Step 3",
+      "setup": "",
+      "run": "mvn clean -Dtest=Step_3_Tests test",
       "input": "",
       "output": "",
       "comparison": "included",
